@@ -1,0 +1,143 @@
+@media screen and (max-width:1200px){
+
+}
+
+@media screen and (max-width:992px){
+    header{
+        height: 80vh;
+    }
+    .begining{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        margin: 50px auto;
+    }
+    .begining .left{
+        width: 50%;
+    }
+    .begining .left img{
+        width: 100%;
+    }
+    .symbols-field{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 600px;
+    }
+    .symbols-field .symbol-box {
+        width: 250px;
+        margin: 10px;
+    } 
+}
+
+
+@media screen and (max-width:768px){
+
+}
+
+@media screen and (max-width:576px){
+
+}
+
+
+@media screen and (max-width:400px) { 
+    .inup-search{
+        display: none;
+    }
+    .name-site{
+       position: absolute;
+       top: 55%;
+       right: 0;
+       width: 100%;
+        text-align: center;
+    }
+    .name-site .h1Elem{
+        font-size: 48px;
+    }
+    .name-site img{
+       display: none;
+    }
+    /* .begining */
+    .begining{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .begining .right{
+        width: 90%;
+        margin: 20px 0;
+    }
+    .begining .left{
+        width: 400px;
+    }
+    .begining .left img{
+        width: 100%;
+    }
+    /* symbol */
+    .symbol .title h1{
+        width: 100%;
+        font-size: 34px;
+    }
+    .symbol .title h2{
+        font-size: 22px;
+    }
+    .symbol .symbols-uni{
+       display: flex;
+       flex-direction: column;
+    }
+    .symbol .symbols-uni .symbol-box{
+        width: 50%;
+        margin:20px auto;
+    }
+    /* symbol-field */
+    .symbols-field{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        text-align: center;
+    }
+    .symbols-field .symbol-box {
+        margin:20px auto;
+    } 
+
+    /* slider-img */
+    .slider-img .indicator div{
+        margin: 5px;
+        width: 10px;
+        height: 10px;
+    }
+  /* selector */
+     .selctor{
+    display: flex;
+    flex-direction: column;
+
+    }
+    .selctor .slelect-items{
+        width: 90%;
+        margin-bottom: 50px;
+    }
+    .selctor .selector-img{
+        width: 90%;
+    }
+    /* footer */
+   .footer{
+    display: flex;
+    flex-direction: column;
+   }
+   .footer .about-us{
+    display: flex;
+    margin: auto;
+    width: 100%;
+   }
+   .footer .trust-symbol{
+    width: 100%;
+   }
+   .footer .trust-symbol .title{
+        margin: 0;
+   }
+   .footer .trust-symbol .elc-symbols{
+    width: 100%;
+   }
+}
