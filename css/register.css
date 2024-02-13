@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+button{
+    cursor: pointer;
+}
+body{
+    font-family: vazir;
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 90vh;
+    background: url(../images/word.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.register-box {
+    /* border: 1px solid #ec5d04; */
+    box-shadow: 5px 5px 15px rgb(233, 223, 223);
+    border-radius: 10px;
+    margin: 2.5rem auto;
+    width: 300px;
+    padding:10px;
+    background-color: #f1f1f1;
+}
+.register .img-logo{
+    width: 100%;
+    background-color: #ec5d04;
+}
+.register-box .img-logo img{
+    display: flex;
+   margin: auto;
+    width: 30%;
+    /* height: 50%; */
+    
+}
+.register-box h2{
+    margin: 20px;
+    color: #333;
+    display: flex;
+    justify-content: center;
+}
+.register-box .title p{
+    margin-right: 5px;
+    color: #333;
+    font-family: vazir;
+    font-size: 14px;
+}
+.register-box .text-input input{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #ec5d04;;
+    margin:10px auto;
+    outline: none;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.register-box .text-input p{
+    font-size: 14px;
+    color :#333;
+    margin-bottom: 10px;
+}
+.register-box .btn-login{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ec5d04;
+    color: #fff;
+    margin-bottom: 10px;
+    font-family: vazir;
+    font-size: 16px;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+}
+.register-box .btn-login:hover{
+    background-color: #0d0da1;
+}
+
+.register-box .attention{
+    text-align: center;
+    font-size: 15px;
+    /* font-family: iransans; */
+    font-weight: 500;
+    margin: 10px 0;
+}
+.register-box .attention span{
+    color:#ec5d04;
+}
+
